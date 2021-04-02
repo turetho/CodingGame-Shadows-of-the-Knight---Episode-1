@@ -10,11 +10,11 @@ w, h = [int(i) for i in input().split()]
 n = int(input())  # maximum number of turns before game over.
 x0, y0 = [int(i) for i in input().split()]
 
-# game loop
 
 x, y = x0, y0
 l, r, t ,b = 0, w - 1, 0, h - 1
-#tab = [(i,j) for i,j in itertools.product(range(w),range(h))]
+
+# game loop
 while True:
     bomb_dir = input()  # the direction of the bombs from batman's current location (U, UR, R, DR, D, DL, L or UL)
 
