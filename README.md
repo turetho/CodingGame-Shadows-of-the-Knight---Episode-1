@@ -3,4 +3,4 @@
 # link of the exercise
 # https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1
 
-# teaching batman how to defuse bombs
+# binary search in two dimensional array
